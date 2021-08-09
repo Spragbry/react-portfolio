@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <nav className='flex justify-between item-center h-16 bg-white text-black relative shadow-sm font-mono' role='navigation'>
+        <nav className='flex justify-between items-center h-16 bg-white text-black relative shadow-sm font-mono' role='navigation'>
             <Link to='/' className='pl-8'>
                 Bryce Spraggins
             </Link>
@@ -23,7 +23,7 @@ const Navbar = () => {
                     />
                 </svg>
             </div>
-            <div className="pr-8 md:block">
+            <div className="pr-8 md:block hidden">
                 <Link className='p-4' to="/">Home</Link>
                 <Link className='p-4' to="/menu">Menu</Link>
                 <Link className='p-4' to="/about">About</Link>
